@@ -1,0 +1,292 @@
+{% macro casinoBar(data = {}, parentClass = '') %}
+  <a href="#" class="casino-bar link {{ parentClass }}" title="{{ data.label }}">
+    <span role="img" class="casino-bar__icon" style="background-image: url('{{ data.image }}');"></span>
+    <span class="casino-bar__label">
+      {{ data.label }}
+      <span class="badge badge--top">
+        <span class="badge__icon">
+          <svg class="icon icon-star text-yellow">
+          <use xlink:href="#icon-star"></use>
+          </svg>
+        </span>
+        <span class="badge__label">
+           {{ data.rate }}
+        </span>
+      </span>
+    </span>
+  </a>
+{% endmacro %}
+
+{% macro cardCasino(data = {}) %}
+ <div class="widget widget--dark betOffers__widget">
+    <div class="widget__content betOffers__widget-content">
+      <article class="card-casino betOffers__card">
+        <header class="card-casino__header betOffers__card-header">
+          <a href="#" class="card-casino__logo" target="_blank" title="">
+            <img src="{{ data.image }}" alt="">
+          </a>
+          <h3 class="card-casino__title">
+            {{ data.title }}
+          </h3>
+        </header>
+        <div class="card-casino__action betOffers__card-action">
+          <div class="card-casino__deadline betOffers__card-deadline">
+            {{ data.deadline }}
+          </div>
+          <a href="#" class="btn btn--black btn--block btn--md betOffers__card-btn" title="Claim now">
+            claim now
+          </a>
+          <a href="#" class="link link--white card-casino__review" title="Review">
+            Review
+          </a>
+        </div>
+      </article>
+    </div>
+    <div class="widget__bg" style="background-color: {{ data.color }};"></div>
+ </div>
+{% endmacro %}
+
+{% macro cardCasinoHor(data = {}) %}
+  <div class="widget widget--dark betOffersHor__widget">
+    <div class="widget__content betOffersHor__widget-content">
+      <article class="card-casino betOffersHor__card">
+        <header class="card-casino__header betOffersHor__card-header">
+          <div class="card-casino__headline">
+            <div class="card-casino__headline-item">
+              <a href="#" class="card-casino__logo" target="_blank" title="">
+                <img src="{{ data.image }}" alt="">
+              </a>
+            </div>
+            <div class="card-casino__headline-item">
+              <div class="card-casino__deadline betOffersHor__card-deadline">
+                19 hours left
+              </div>
+            </div>
+          </div>
+          <h3 class="card-casino__title betOffersHor__card-title">
+            {{ data.title }}
+          </h3>
+        </header>
+        <div class="card-casino__footer betOffersHor__card-footer">
+          <div class="betOffersHor__card-action">
+            <a href="#" class="btn btn--white btn--block btn--lg betOffersHor__card-btn" title="Claim now">
+              <span style="color: {{ data.color }};">Claim now</span>
+            </a>
+          </div>
+          <div class="betOffersHor__card-action">
+             <a href="#" class="btn btn--white btn--block btn--lg betOffersHor__card-btn betOffersHor__card-btn--transparent" title="Review">
+              Review
+            </a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <div class="widget__bg" style="background-color: {{ data.color }};"></div>
+  </div>
+{% endmacro %}
+
+{% macro cardBet(data = {}) %}
+  <div class="widget widget--dark">
+    <div class="widget__content">
+      <div class="cart-bet">
+        <div class="cart-bet__header">
+          <div class="cart-bet__event">
+            <img src="/static/img/logo/epl.png" class="cart-bet__event-logo" alt="">
+            <a href="#" class="cart-bet__event-label link link--white">
+              England Premier League. Round 37
+            </a>
+          </div>
+          <div class="cart-bet__info">
+            <a href="#" class="cart-bet__description link link--white">
+              Borussia Dortmund — Bayern Munich
+            </a>
+            <div class="cart-bet__meta">
+              <div class="cart-bet__meta-item">today</div>
+              <div class="cart-bet__meta-item">10:00 PM WAT</div>
+            </div>
+          </div>
+        </div>
+        <div class="cart-bet__content">
+          <div class="cart-bet__list">
+            <div class="cart-bet__item">
+              <a href="#" class="#" title="SportyBet">
+                <img src="/static/img/logo/sportybet-lg.png" class="cart-bet__logo" alt="SportyBet">
+              </a>
+              <div class="cart-bet__status" style="color: #EC1C24;">
+                <!-- IF WON
+                <div class="cart-bet__status-icon">
+                  <svg class="icon icon-check">
+                    <use xlink:href="#icon-check"></use>
+                  </svg>
+                </div>
+                <div class="cart-bet__status-label">Won</div>
+                -->
+                <div class="cart-bet__status-label">Not settled</div>
+              </div>
+            </div>
+            <div class="cart-bet__item">
+              <div class="cart-bet__terms">
+                <div class="cart-bet__terms-title">
+                  Home / Guest & Yes
+                </div>
+                <div class="cart-bet__terms-description">
+                  1st Half - Double Chance & GG/NG
+                </div>
+              </div>
+              <div class="cart-bet__coefficient">
+                <div class="cart-bet__coefficient-label">1.420</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- If settled don`t show footer -->
+        <div class="cart-bet__footer">
+          <a href="#" class="btn btn--white btn--lg cart-bet__btn">
+            <span class="cart-bet__btn-label">Bet now</span>
+          </a>
+          <p class="cart-bet__footer-sale">Up to 80% cashback on first bet</p>
+        </div>
+      </div>
+    </div>
+    <div class="widget__bg" style="background-color: #EC1C24;"></div>
+  </div>
+{% endmacro %}
+
+{% macro shareList(shareList = [], parentClass = '', shareLabel = {}) %}
+  <div class="share {{ parentClass }}">
+    {% if shareLabel.label %}
+      <div class="share__label {{ shareLabel.parentClass }}">
+        {{ shareLabel.label }}
+      </div>
+    {% endif %}
+    <ul class="share__list">
+      {% for social in shareList %}
+        <li class="share__item">
+          <a href="{{ social.path }}" class="link share__link" title="{{ social.label }}">
+            <span class="share__icon">
+              <svg class="icon icon-{{ social.icon }}">
+                <use xlink:href="#icon-{{ social.icon }}"></use>
+              </svg>
+            </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+{% endmacro %}
+
+{% macro banner(data = {}) %}
+  <a href="#" title="{{ data.label }}" class="banner {{ data.subClass }}" target="_blank">
+    <img src="{{ data.image }}" loading="lazy" class="banner__img" alt="{{ data.label }}">
+  </a>
+{% endmacro %}
+
+{% macro fSubscribe() %}
+  <div class="fSubscribe">
+    <div class="widget widget--dark widget--shadow widget--shadow-lg widget--clip fSubscribe__widget">
+      <div class="widget__content fSubscribe__widget-content">
+        <div class="widget__header fSubscribe__widget-header">
+          <svg class="icon icon-logo-short">
+            <use xlink:href="#icon-logo-short"></use>
+          </svg>
+        </div>
+        <div class="widget__body">
+          <form action="" class="fSubscribe__form">
+            <h3 class="fSubscribe__title">
+              Get free betting tips, sign-up bonuses and more
+            </h3>
+            <p class="fSubscribe__description">
+              Learn how to bet on sports and make money from predictions with
+              our
+              newsletter.
+            </p>
+            <div class="fSubscribe__fields fSubscribe__fields--horizontal">
+              <div class="fSubscribe__fields-item">
+                <input type="email" name="email" class="fSubscribe__input" placeholder="Your email" required>
+              </div>
+              <div class="fSubscribe__fields-item">
+                <button type="submit" class="btn btn--block btn--white btn--lg">
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="widget__bg"></div>
+    </div>
+  </div>
+{% endmacro %}
+
+{% macro preLeaders(data = {}) %}
+  <div class="preLeaders">
+    <div class="widget">
+      <div class="widget widget--dark widget--shadow widget--shadow-lg widget--clip preLeaders__widget">
+        <div class="widget__content preLeaders__widget-content">
+          <div class="widget__header preLeaders__widget-header">
+            <h2 class="preLeaders__title">
+              Tipster competition
+            </h2>
+            <div class="preLeaders__logo">
+              <svg class="icon icon-zipper">
+                <use xlink:href="#icon-zipper"></use>
+              </svg>
+            </div>
+          </div>
+          <div class="widget__body">
+            <ol class="list-unstyled preLeaders__list">
+              {% for user in data.users %}
+                <li class="preLeaders__item">
+                  <div class="preLeaders__item-count"></div>
+                  <div class="preLeaders__item-info">
+                    <a href="#" class="preLeaders__user link link--white"
+                       title="{{ user.name }}">
+                      <div class="preLeaders__user-avatar">
+                        <div class="avatar avatar--xs">
+                          {% if user.image %}
+                            <img src="{{ user.image }}" loading="lazy" class="fit" alt="{{ user.name }}">
+                          {% else %}
+                            <img src="/static/img/stub/no-avatar.jpg" loading="lazy" class="fit" alt="{{ user.name }}">
+                          {% endif %}
+                        </div>
+                      </div>
+                      <div class="preLeaders__user-name">
+                        {{ user.name }}
+                      </div>
+                    </a>
+                  </div>
+                  <div class="preLeaders__item-stat">
+                    <div class="preLeaders__rate">
+                                                                <span class="preLeaders__rate-progress">
+                                                                    {{ user.rate }}
+                                                                </span>
+                      <span class="preLeaders__rate-flag">PTS</span>
+                    </div>
+                    <div class="preLeaders__bonus">
+                      {{ user.bonus }}
+                    </div>
+                  </div>
+                </li>
+              {% endfor %}
+            </ol>
+          </div>
+        </div>
+        <div class="widget__bg"></div>
+      </div>
+    </div>
+  </div>
+{% endmacro %}
+
+{% macro breadcrumbs(data = [{label: 'Main', route: '/'}, {label: 'Soccer', route: ''}, {label: 'News', route: ''}, {label: 'New twist in Thiago to Liverpool; Chelsea look to land rising Monaco star', route: ''}]) %}
+  <nav>
+    <ol class="breadcrumbs">
+      {% for item in data %}
+        {% if loop.last %}
+          <li class="breadcrumbs__item breadcrumbs__item--active">{{ item.label }}</li>
+        {% else %}
+          <li class="breadcrumbs__item"><a href="{{ item.route }}" class="link" title="">{{ item.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ol>
+  </nav>
+{% endmacro %}

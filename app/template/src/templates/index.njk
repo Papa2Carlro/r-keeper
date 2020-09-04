@@ -1,0 +1,1370 @@
+{% set title = "Main" %}
+{% set app_class = "app--home" %}
+
+{% extends "layouts/_default.njk" %}
+{% import "components/_index.njk" as components %}
+
+{% block content %}
+
+  <main class="layout" role="main">
+
+    <!-- RATE -->
+    {% include "includes/section/_rate.njk" %}
+
+    <!-- BREAKING NEWS -->
+    <section class="layout__section">
+      <div class="container">
+        <div class="bNews">
+          <div class="widget widget--shadow bNews__widget">
+            <div class="widget__content">
+              <div class="widget__header bNews__header">
+                <h2 class="widget__title widget__title--sm">
+                  Breaking News
+                </h2>
+              </div>
+              <div class="widget__body">
+                <div class="masonry masonry--c_4 bNews__grid">
+                  <div class="masonry__item masonry__item--r_2 masonry__item--c_2">
+                    <article class="card-post bNews__card bNews__card--accent">
+                      <header class="card-post__header bNews__card-header">
+                        <h3 class="card-post__title bNews__card-title">
+                          <a href="#" class="link" title="">Split up $1,000 prize pool in June
+                            prediction contest on Takebet</a>
+                        </h3>
+                      </header>
+                      <footer class="card-post__footer">
+                        <ul class="meta">
+                          <li class="meta__item">
+                            <time datetime="2020-10-10 19:00">5h ago</time>
+                          </li>
+                          <li class="meta__item">
+                            <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                               rel="author">by Jeff Dickerson</a>
+                          </li>
+                        </ul>
+                      </footer>
+                    </article>
+                  </div>
+                  <div class="masonry__item"><article class="card-post bNews__card">
+                      <header class="card-post__header bNews__card-header">
+                        <h3 class="card-post__title bNews__card-title">
+                          <a href="#" class="link" title="">Ahmed Musa prediction: Nigeria
+                            will beat Russia 1:0</a>
+                        </h3>
+                      </header>
+                      <footer class="card-post__footer">
+                        <ul class="meta">
+                          <li class="meta__item">
+                            <time datetime="2020-10-10 19:00">5h ago</time>
+                          </li>
+                          <li class="meta__item">
+                            <a href="#" class="link link--grey"
+                               title="by Jeff Dickerson"
+                               rel="author">by Jeff Dickerson</a>
+                          </li>
+                        </ul>
+                      </footer>
+                    </article></div>
+                  <div class="masonry__item"><article class="card-post bNews__card">
+                      <header class="card-post__header bNews__card-header">
+                        <h3 class="card-post__title bNews__card-title">
+                          <a href="#" class="link" title="">Juventus — Inter Milan:
+                            predict
+                            the winner and get $10 bonus</a>
+                        </h3>
+                      </header>
+                      <footer class="card-post__footer">
+                        <ul class="meta">
+                          <li class="meta__item">
+                            <time datetime="2020-10-10 19:00">4h ago</time>
+                          </li>
+                          <li class="meta__item">
+                            <a href="#" class="link link--grey"
+                               title="by Jeff Dickerson"
+                               rel="author">by Jeff Dickerson</a>
+                          </li>
+                        </ul>
+                      </footer>
+                    </article></div>
+                  <div class="masonry__item"><article class="card-post bNews__card">
+                      <header class="card-post__header bNews__card-header">
+                        <h3 class="card-post__title bNews__card-title">
+                          <a href="#" class="link" title="">Sergio Ramos showed his brand
+                            new
+                            $300,000 car [PHOTOS]</a>
+                        </h3>
+                      </header>
+                      <footer class="card-post__footer">
+                        <ul class="meta">
+                          <li class="meta__item">
+                            <time datetime="2020-10-10 19:00">5h ago</time>
+                          </li>
+                          <li class="meta__item">
+                            <a href="#" class="link link--grey"
+                               title="by Jeff Dickerson"
+                               rel="author">by Jeff Dickerson</a>
+                          </li>
+                        </ul>
+                      </footer>
+                    </article></div>
+                  <div class="masonry__item"><article class="card-post bNews__card">
+                      <header class="card-post__header bNews__card-header">
+                        <h3 class="card-post__title bNews__card-title">
+                          <a href="#" class="link" title="">Barcelona — Real Madrid: how
+                            to
+                            watch online and on TV in Nigeria</a>
+                        </h3>
+                      </header>
+                      <footer class="card-post__footer">
+                        <ul class="meta">
+                          <li class="meta__item">
+                            <time datetime="2020-10-10 19:00">4h ago</time>
+                          </li>
+                          <li class="meta__item">
+                            <a href="#" class="link link--grey"
+                               title="by Jeff Dickerson"
+                               rel="author">by Jeff Dickerson</a>
+                          </li>
+                        </ul>
+                      </footer>
+                    </article></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER BIG -->
+    <section class="layout__section layout__section--indent-lg d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-18 col-lg-14 offset-lg-2 px-lg-0">
+            {{ components.banner({label: 'Bay a laptop. Right now', image: 'static/img/stub/banner-big.jpg'}) }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PREDICTIONS -->
+    <section class="layout__section">
+      <div class="container">
+        <div class="prePosts">
+          <div class="row">
+            <!-- TITLE -->
+            <div class="col-18">
+              <h2 class="layout__section-title prePosts__title">
+                Predictions
+              </h2>
+            </div>
+            <!-- POSTS -->
+            <div class="col-18 col-lg-12">
+              <!-- GRID -->
+              <div class="masonry prePosts__grid">
+                <div class="masonry__item masonry__item--r_2">
+                  <div class="widget widget--ratio_6_7 prePosts__widget">
+                    <div class="widget__content prePosts__widget-content">
+                      <article class="card-event card-event--accent prePosts__card prePosts__card--accent">
+                        <div class="card-event__headline prePosts__card-headline">
+                          <div class="card-event__headline-item">
+                            Today
+                          </div>
+                          <div class="card-event__headline-item">
+                            10:00 PM WAT
+                          </div>
+                        </div>
+                        <header class="card-event__header prePosts__card-header">
+                          <h3 class="card-event__title prePosts__card-title">
+                            <a href="#" class="link" title="">Borussia Dortmund — Bayern
+                              Munich.
+                              Prediction and Betting Tips</a>
+                          </h3>
+                        </header>
+                        <p class="card-event__description prePosts__card-description">
+                          Der Klassiker kicks off a post-lockdown football craze in Germany.
+                          Bayern
+                          Munich is 10 points ahead of Borussia Dortmund, but their head to
+                          head
+                          fixtures tend to be most unpredictable.
+                        </p>
+                        <footer class="card-event__footer">
+                          <ul class="meta prePosts__card-meta">
+                            <li class="meta__item">
+                              <a href="#" class="link" title="by Jeff Dickerson"
+                                 rel="author">by
+                                Jeff Dickerson</a>
+                            </li>
+                            <li class="meta__item">
+                              <time datetime="2020-10-10 19:00">5h ago</time>
+                            </li>
+                          </ul>
+                        </footer>
+                      </article>
+                    </div>
+                    <div class="widget__bg">
+                      <img src="/static/img/stub/predictions-post-bg.jpg" loading="lazy" class="fit fit-top widget__bg-img" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="masonry__item">
+                  <article class="card-event prePosts__card">
+                    <div class="clearfix">
+                      <div class="card-event__headline prePosts__card-headline">
+                        <div class="card-event__headline-item">
+                          Tomorrow
+                        </div>
+                        <div class="card-event__headline-item">
+                          10:00 PM WAT
+                        </div>
+                      </div>
+                    </div>
+                    <header class="card-event__header prePosts__card-header">
+                      <h3 class="card-event__title prePosts__card-title">
+                        <a href="#" class="link" title="">Barcelona — Real Madrid. Prediction
+                          and
+                          Betting Tips</a>
+                      </h3>
+                    </header>
+                    <p class="card-event__description prePosts__card-description">
+                      El Clasico is always an eye candy for football fans all over the world. But
+                      with
+                      both sides scoring 20 goals in the last 5 league games, their next match
+                      promises to
+                      be a true spectacle.
+                    </p>
+                    <footer class="card-event__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">5h ago</time>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article>
+
+                </div>
+                <div class="masonry__item">
+                  <article class="card-event prePosts__card">
+                    <div class="clearfix">
+                      <div class="card-event__headline prePosts__card-headline">
+                        <div class="card-event__headline-item">
+                          15 Sep
+                        </div>
+                        <div class="card-event__headline-item">
+                          10:00 PM WAT
+                        </div>
+                      </div>
+                    </div>
+                    <header class="card-event__header prePosts__card-header">
+                      <h3 class="card-event__title prePosts__card-title">
+                        <a href="#" class="link" title="">
+                          Juventus — Inter Milan. Prediction and Betting Tips
+                        </a>
+                      </h3>
+                    </header>
+                    <p class="card-event__description prePosts__card-description">
+                      Juventus meets Inter Milan in the Coppa Italia semi-final with all guns
+                      blazing:
+                      top
+                      goalscorers of Turin are in superb shape and totally ready to test the
+                      defence
+                      of
+                      Internazionale.
+                    </p>
+                    <footer class="card-event__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">3h ago</time>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article>
+
+                </div>
+                <div class="masonry__item">
+                  <article class="card-event prePosts__card">
+                    <div class="clearfix">
+                      <div class="card-event__headline prePosts__card-headline">
+                        <div class="card-event__headline-item">
+                          14 Sep
+                        </div>
+                        <div class="card-event__headline-item">
+                          10:00 PM WAT
+                        </div>
+                      </div>
+                    </div>
+                    <header class="card-event__header prePosts__card-header">
+                      <h3 class="card-event__title prePosts__card-title">
+                        <a href="#" class="link" title="">
+                          Borussia Dortmund — Bayern Munich. Prediction and Betting Tips
+                        </a>
+                      </h3>
+                    </header>
+                    <p class="card-event__description prePosts__card-description">
+                      Der Klassiker kicks off a post-lockdown football craze in Germany. Bayern
+                      Munich
+                      is
+                      10 points ahead of Borussia Dortmund, but their head to head fixtures tend
+                      to be
+                      most unpredictable.
+                    </p>
+                    <footer class="card-event__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">3h ago</time>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article>
+
+                </div>
+                <div class="masonry__item">
+                  <article class="card-event prePosts__card">
+                    <div class="clearfix"><div class="card-event__headline prePosts__card-headline">
+                        <div class="card-event__headline-item">
+                          13 Sep
+                        </div>
+                        <div class="card-event__headline-item">
+                          10:00 PM WAT
+                        </div>
+                      </div></div>
+                    <header class="card-event__header prePosts__card-header">
+                      <h3 class="card-event__title prePosts__card-title">
+                        <a href="#" class="link" title="">
+                          Nigeria — Kenya. Prediction and Betting Tips
+                        </a>
+                      </h3>
+                    </header>
+                    <p class="card-event__description prePosts__card-description">
+                      Nigeria and Kenya match in the Africa Cup of Nations group stage will be
+                      their
+                      17th
+                      official head to head fixture. The Super Eagles usually come on top — and
+                      this
+                      time
+                      won’t be an exception.
+                    </p>
+                    <footer class="card-event__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">3h ago</time>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article>
+                </div>
+              </div>
+              <!-- SLIDER -->
+              <div class="betOffers pb-40 pb-lg-0">
+                <div class="widget">
+                  <div class="widget__header betOffers__header">
+                    <h3 class="widget__title">
+                      BEST BETTING OFFERS
+                    </h3>
+                  </div>
+                  <div class="widget__body betOffers__body js-betOffers-slider">
+                    <div class="betOffers__list betOffers__list--c_4 slider__wrapper">
+                      {% for bettingOffer in bettingOffers %}
+                        <div class="betOffers__item slider__slide">
+                          {{ components.cardCasino(bettingOffer) }}
+                        </div>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- ASIDE -->
+            <div class="col-18 col-lg-6">
+              <div class="full-width-xs full-width-md-none">
+                {{ components.fSubscribe() }}
+              </div>
+              <div class="pt-50 pt-lg-30">
+                {{ components.preLeaders({users: users}) }}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="layout__section">
+      <div class="container">
+        <div class="fPosts">
+          <h2 class="layout__section-title fPosts__title">
+            Features
+          </h2>
+          <div class="row">
+            <div class="col-18 col-lg-12">
+              <div class="masonry">
+                <div class="masonry__item masonry__item--c_2 masonry__item--r_2">
+                  <div class="widget widget--ratio_12_6 widget--dark widget--preview fPosts__widget">
+                    <div class="widget__content fPosts__widget-content">
+                      <article class="card-post card-post--accent fPosts__card fPosts__card--accent">
+                        <header class="card-post__header fPosts__card-header">
+                          <h3 class="card-post__title fPosts__card-title">
+                            <a href="#" class="link link--white" title="">
+                              Betting on Over/Under 2.5 Goals. 5 Secrets From Professional Sports
+                              Bettors
+                            </a>
+                          </h3>
+                        </header>
+                        <p class="card-post__description fPosts__card-description">
+                          The value of the broadcast rights for Germany’s top league, the first major
+                          European soccer deal agreed upon since the health crisis, fell amid concerns
+                          about the lasting damage to the global economy.
+                        </p>
+                        <footer class="card-post__footer">
+                          <ul class="meta fPosts__card-meta">
+                            <li class="meta__item">
+                              <time datetime="2020-10-10 19:00">5h ago</time>
+                            </li>
+                            <li class="meta__item">
+                              <a href="#" class="link" title="by Jeff Dickerson" rel="author">by
+                                Jeff
+                                Dickerson</a>
+                            </li>
+                          </ul>
+                        </footer>
+                      </article>
+                    </div>
+                    <div class="widget__bg">
+                      <img src="/static/img/stub/feature-post-accent-bg.jpg" loading="lazy" class="fit fit-top widget__bg-img" alt="">
+                    </div>
+                  </div>
+                  <hr class="divider d-none d-lg-block">
+                </div>
+                <div class="masonry__item masonry__item--r_2">
+                  <article class="card-post fPosts__card">
+                    <a href="#" class="card-post__preview" title="">
+                      <img src="/static/img/stub/feature-post-preview.jpg" loading="lazy" class="fit card-post__image" alt="">
+                    </a>
+                    <header class="card-post__header fPosts__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico. Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description fPosts__card-description">
+                      A Premier League title celebration that was once years away, and then just
+                      months, now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">5h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article>
+                </div>
+                <div class="masonry__item">
+                  <hr class="divider d-lg-none">
+                  <article class="card-post fPosts__card">
+                    <header class="card-post__header fPosts__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico. Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description fPosts__card-description">
+                      A Premier League title celebration that was once years away, and then just
+                      months, now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Casinos"
+                             rel="tag">Casinos</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">5h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article>
+                </div>
+                <div class="masonry__item">
+                  <hr class="divider">
+                  <article class="card-post fPosts__card">
+                    <header class="card-post__header fPosts__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Betting on 1X2. Top 3 Advantages and
+                          Disadvantages</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description fPosts__card-description">
+                      Spurs bet the club’s financial future on a spaceship of a stadium.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase"
+                             title="bookmakers"
+                             rel="tag">bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">5h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article>
+                </div>
+              </div>
+            </div>
+            <div class="col-18 col-lg-5 offset-lg-1">
+              {{ components.banner({label: 'Bay a laptop. Right now', image: 'static/img/stub/banner-square-sm.jpg'}) }}
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES WITH VIDEO -->
+    <section class="layout__section">
+      <div class="container">
+        <div class="videoPosts">
+          <div class="row">
+            <!-- POSTS -->
+            <div class="col-18 col-lg-12">
+              <div class="masonry">
+                {% for videoPost in videoPosts %}
+                  <div class="masonry__item">
+                    <div class="widget widget--ratio_6_5 widget--dark widget--preview videoPosts__widget">
+                      <div class="widget__content videoPosts__widget-content">
+                        <article class="card-video card-video--accent videoPosts__card">
+                          <div class="card-video__action videoPosts__card-action">
+                            <span>
+                              <svg class="icon icon-video-play">
+                                <use xlink:href="#icon-video-play"></use>
+                              </svg>
+                            </span>
+                          </div>
+                          <header class="card-video__header videoPosts__card-header">
+                            <h3 class="card-video__title videoPosts__card-title">
+                              <a href="#" class="link link--white" title="{{ videoPost.title }}">
+                                {{ videoPost.title }}
+                              </a>
+                            </h3>
+                          </header>
+                          <footer class="card-video__footer">
+                            <ul class="meta videoPosts__card-meta">
+                              <li class="meta__item">
+                                <time datetime="2020-10-10 19:00">5h ago</time>
+                              </li>
+                              <li class="meta__item">
+                                <a href="#" class="link" title="by Jeff Dickerson" rel="author">by
+                                  Jeff
+                                  Dickerson</a>
+                              </li>
+                            </ul>
+                          </footer>
+                        </article>
+                      </div>
+                      <div class="widget__bg videoPosts__widget-bg">
+                        <img src="{{ videoPost.image }}" loading="lazy" class="fit widget__bg-img videoPosts__widget-img" alt="">
+                      </div>
+                    </div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+            <!-- SLIDER -->
+            <div class="col-18 col-lg-6">
+              <div class="betOffers">
+                <div class="widget">
+                  <div class="widget__header betOffers__header">
+                    <h3 class="widget__title">
+                      Best casino bonuses
+                    </h3>
+                  </div>
+                  <div class="widget__body">
+                    <div class="widget__body betOffers__body js-casino-slider">
+                      <div class="betOffers__list slider__wrapper">
+                        {% for bettingOffer in bettingOffers %}
+                          <div class="betOffers__item slider__slide">
+                            {{ components.cardCasino(bettingOffer) }}
+                          </div>
+                        {% endfor %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GUIDES -->
+    <section class="layout__section">
+      <div class="container">
+        <div class="gPosts">
+          <h2 class="layout__section-title gPosts__title">
+            Guides
+          </h2>
+          <div class="masonry gPosts__grid">
+            <div class="masonry__item masonry__item--r_2 gPosts__grid-item">
+              <div class="widget widget--ratio_9_8 widget--dark widget--preview gPosts__widget">
+                <div class="widget__content gPosts__widget-content">
+                  <article class="card-guide card-guide--accent gPosts__card gPosts__card--accent">
+                    <header class="card-guide__header gPosts__card-header">
+                      <h3 class="card-guide__title gPosts__card-title">
+                        <a href="#" class="link link--white" title="">
+                          How to Start Betting on Sports. Beginners Guide
+                        </a>
+                      </h3>
+                    </header>
+                    <div class="row">
+                      <div class="col-18 col-lg-9">
+                        <p class="card-guide__description gPosts__card-description">
+                          Learn the basics of sports betting to save your money and get maximum profits. We will show
+                          you how to set up an online account, use betting sites and apps, manage your bankroll and
+                          choose right bets.
+                        </p>
+                      </div>
+                      <div class="col-18 col-lg-9">
+                        <ul class="card-guide__list">
+                          <li class="card-guide__list-item">How to register your first online betting account?</li>
+                          <li class="card-guide__list-item">How to choose a bet?</li>
+                          <li class="card-guide__list-item">How to place a bet online?</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <footer class="card-guide__footer">
+                      <a href="#" class="btn btn--white btn--lg card-guide__btn" title="Learn now">
+                        Learn now
+                      </a>
+                      <ul class="meta gPosts__card-meta">
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">5h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link" title="by Jeff Dickerson" rel="author">by
+                            Jeff
+                            Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article>
+                </div>
+                <div class="widget__bg">
+                  <img src="/static/img/stub/guide-post-bg.jpg" loading="lazy" class="fit widget__bg-img" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="masonry__item gPosts__grid-item">
+              <article class="card-guide gPosts__card">
+                <header class="card-guide__header gPosts__card-header">
+                  <h3 class="card-guide__title gPosts__card-title">
+                    <a href="#" class="link" title="">
+                      Betting on Football. Complete Guide
+                    </a>
+                  </h3>
+                </header>
+                <div class="row">
+                  <div class="col-18 col-lg-9">
+                    <p class="card-guide__description gPosts__card-description">
+                      Start your successful way in football betting. Learn how to analyze teams and players, understand
+                      and choose football wagers and bet with high probability of success.
+                    </p>
+                  </div>
+                  <div class="col-18 col-lg-9">
+                    <ul class="card-guide__list">
+                      <li class="card-guide__list-item">What betting markets are offered on football?</li>
+                      <li class="card-guide__list-item">How to analyze football statistics?</li>
+                      <li class="card-guide__list-item">5 profitable strategies of football betting.</li>
+                    </ul>
+                  </div>
+                </div>
+                <footer class="card-guide__footer">
+                  <a href="#" class="btn btn--black btn--lg card-guide__btn" title="Learn now">
+                    Learn now
+                  </a>
+                  <ul class="meta gPosts__card-meta">
+                    <li class="meta__item">
+                      <a href="#" class="link" title="by Jeff Dickerson" rel="author">by
+                        Jeff
+                        Dickerson</a>
+                    </li>
+                    <li class="meta__item">
+                      <time datetime="2020-10-10 19:00">5h ago</time>
+                    </li>
+                  </ul>
+                </footer>
+              </article>
+            </div>
+            <div class="masonry__item gPosts__grid-item">
+              <article class="card-guide gPosts__card">
+                <header class="card-guide__header gPosts__card-header">
+                  <h3 class="card-guide__title gPosts__card-title">
+                    <a href="#" class="link" title="">
+                      Probability Theory for Sports Betting. Complete Guide
+                    </a>
+                  </h3>
+                </header>
+                <div class="row">
+                  <div class="col-18 col-lg-9">
+                    <p class="card-guide__description gPosts__card-description">
+                      Learn the main principles of probability theory to understand how sports betting odds are made and
+                      to make more accurate choices of bets.
+                    </p>
+                  </div>
+                  <div class="col-18 col-lg-9">
+                    <ul class="card-guide__list">
+                      <li class="card-guide__list-item">Understanding the odds of bookmakers.</li>
+                      <li class="card-guide__list-item">How to convert odds to probability and vice versa?</li>
+                      <li class="card-guide__list-item">How to use Bayes’ theorem in evaluating probability of sporting
+                        events?
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <footer class="card-guide__footer">
+                  <a href="#" class="btn btn--black btn--lg card-guide__btn" title="Learn now">
+                    Learn now
+                  </a>
+                  <ul class="meta gPosts__card-meta">
+                    <li class="meta__item">
+                      <a href="#" class="link" title="by Jeff Dickerson" rel="author">by
+                        Jeff
+                        Dickerson</a>
+                    </li>
+                    <li class="meta__item">
+                      <time datetime="2020-10-10 19:00">5h ago</time>
+                    </li>
+                  </ul>
+                </footer>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BANNER SMALL -->
+    <section class="layout__section layout__section--indent-lg d-none d-lg-block">
+      <div class="container">
+        <div class="row">
+          <div class="col-18">
+            {{ components.banner({label: 'Bay a laptop. Right now', image: 'static/img/stub/banner-small.jpg'}) }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- RECENT NEWS -->
+    <section class="layout__section">
+      <div class="container">
+        <div class="row">
+          <!-- NEWS LIST -->
+          <div class="col-18 col-lg-12">
+            <div class="rNews">
+              <h2 class="layout__section-title rNews__title">
+                Recent news
+              </h2>
+              <div class="masonry rNews__grid">
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Betting on 1X2. Top 3 Advantages and
+                          Disadvantages</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      Spurs bet the club’s financial future on a spaceship of a stadium.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Bookmakers"
+                             rel="tag">Bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">5h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico.
+                          Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      A Premier League title celebration that was once years away, and then just
+                      months,
+                      now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Casino"
+                             rel="tag">Casino</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">3h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico.
+                          Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      A Premier League title celebration that was once years away, and then just
+                      months,
+                      now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Casino"
+                             rel="tag">Casino</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">5h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Betting on 1X2. Top 3 Advantages and
+                          Disadvantages</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      Spurs bet the club’s financial future on a spaceship of a stadium.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Bookmakers"
+                             rel="tag">Bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">3h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico.
+                          Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      A Premier League title celebration that was once years away, and then just
+                      months,
+                      now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Bookmakers"
+                             rel="tag">Bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">4h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico.
+                          Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      A Premier League title celebration that was once years away, and then just
+                      months,
+                      now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Bookmakers"
+                             rel="tag">Bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">3h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico.
+                          Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      A Premier League title celebration that was once years away, and then just
+                      months,
+                      now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Bookmakers"
+                             rel="tag">Bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">4h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico.
+                          Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      A Premier League title celebration that was once years away, and then just
+                      months,
+                      now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Bookmakers"
+                             rel="tag">Bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">3h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Barcelona Takes on Real Madrid in El
+                          Clasico.
+                          Preview, Odds and Statistics</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      A Premier League title celebration that was once years away, and then just
+                      months,
+                      now could be on in less than a week.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Bookmakers"
+                             rel="tag">Bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">2h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+                <div class="masonry__item rNews__grid-item"><article class="card-post rNews__card">
+                    <header class="card-post__header rNews__card-header">
+                      <h3 class="card-post__title">
+                        <a href="#" class="link" title="">Betting on 1X2. Top 3 Advantages and
+                          Disadvantages</a>
+                      </h3>
+                    </header>
+                    <p class="card-post__description">
+                      Spurs bet the club’s financial future on a spaceship of a stadium.
+                    </p>
+                    <footer class="card-post__footer">
+                      <ul class="meta">
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey text-uppercase" title="Bookmakers"
+                             rel="tag">Bookmakers</a>
+                        </li>
+                        <li class="meta__item">
+                          <time datetime="2020-10-10 19:00">3h ago</time>
+                        </li>
+                        <li class="meta__item">
+                          <a href="#" class="link link--grey" title="by Jeff Dickerson"
+                             rel="author">by
+                            Jeff Dickerson</a>
+                        </li>
+                      </ul>
+                    </footer>
+                  </article></div>
+              </div>
+            </div>
+          </div>
+          <!-- SUBSCRIBE -->
+          <div class="col-18 col-lg-12 order-lg-1">
+            <div class="full-width-xs full-width-md-none pb-50 pb-lg-0">
+              <div class="fSubscribe">
+                <div class="widget widget--dark widget--shadow widget--shadow-lg widget--clip fSubscribe__widget">
+                  <div class="widget__content fSubscribe__widget-content">
+                    <div class="widget__header fSubscribe__widget-header">
+                      <svg class="icon icon-logo-short">
+                        <use xlink:href="#icon-logo-short"></use>
+                      </svg>
+                    </div>
+                    <div class="widget__body">
+                      <form action="" class="fSubscribe__form">
+                        <div class="row">
+                          <div class="col-18 col-lg-9">
+                            <h3 class="fSubscribe__title">
+                              Get free betting tips, sign-up bonuses and more
+                            </h3>
+                            <p class="fSubscribe__description pb-lg-0 pr-lg-80">
+                              Learn how to bet on sports and make money from predictions
+                              with
+                              our newsletter.
+                            </p>
+                          </div>
+                          <div class="col-18 col-lg-9">
+                            <div class="fSubscribe__fields">
+                              <div class="fSubscribe__fields-item">
+                                <input type="email" name="email" class="fSubscribe__input"
+                                       placeholder="Your email" required>
+                              </div>
+                              <div class="fSubscribe__fields-item">
+                                <button type="submit"
+                                        class="btn btn--block btn--white btn--lg">
+                                  Subscribe
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                  <div class="widget__bg"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- NEW OFFERS -->
+          <div class="col-18 col-lg-6">
+            <div class="pb-30 pb-lg-50">{% include 'includes/section/_newOffers.njk' %}</div>
+            <div>{% include 'includes/section/_newOffers.njk' %}</div>
+
+          </div>
+          <!-- BANNER -->
+          <div class="col-18 col-lg-6 d-none d-lg-block order-lg-2">
+            {{ components.banner({label: 'Bet on Football. Easily.', image: 'static/img/stub/banner-square.jpg'}) }}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SEO -->
+    <section class="layout__section">
+      <div class="container">
+        <div class="seo">
+          <div class="row">
+            <!-- NEW CASINO -->
+            <div class="col-18 col-lg-6 order-lg-1">
+              <div class="newCasino pb-20 pb-lg-25">
+                <div class="widget">
+                  <div class="widget__header">
+                    <h2 class="widget__title widget__title--dark widget__title--sm">
+                      new casinos
+                    </h2>
+                  </div>
+                  <div class="widget__body">
+                    <ul class="list-unstyled newCasino__list">
+                      {% for casino in newCasinos %}
+                        <li class="newCasino__item">
+                          <div class="row">
+                            <div class="col-12">
+                              {{ components.casinoBar(casino, 'newCasino__bar') }}
+                            </div>
+                            <div class="col-6">
+                              <div class="newCasino__action">
+                                <a href="#" class="btn btn--green btn--md"
+                                   title="Bet now">
+                                  Bet now
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="newCasino pb-50 pb-lg-30">
+                <div class="widget">
+                  <div class="widget__header">
+                    <h2 class="widget__title widget__title--dark widget__title--sm">
+                      new casinos
+                    </h2>
+                  </div>
+                  <div class="widget__body">
+                    <ul class="list-unstyled newCasino__list">
+                      {% for casino in newCasinos %}
+                        <li class="newCasino__item">
+                          <div class="row">
+                            <div class="col-12">
+                              {{ components.casinoBar(casino, 'newCasino__bar') }}
+                            </div>
+                            <div class="col-6">
+                              <div class="newCasino__action">
+                                <a href="#" class="btn btn--green btn--md"
+                                   title="Bet now">
+                                  Bet now
+                                </a>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      {% endfor %}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="text-right d-none d-lg-block">
+                {{ components.banner({label: 'Bet on Football. Easily.', image: 'static/img/stub/banner-square-big.jpg'}) }}
+              </div>
+            </div>
+            <!-- TITLE -->
+            <div class="col-18 col-lg-12">
+              <h2 class="layout__section-title">
+                Barcelona Takes on Real Madrid in El Clasico. Preview, Odds and Statistics
+              </h2>
+            </div>
+            <!-- TEXT -->
+            <div class="col-18 col-lg-12">
+              <div class="seo__text">
+                <p>
+                  A discount and bonus strategy stabilizes UV re-contact.
+                  Until recently, it was believed that the marketing and sales department was
+                  recovering an
+                  excimer.
+                  Targeting balances an outstanding advertising brief. When resonance occurs, a
+                  quantum is
+                  abstract.
+                  Promotion is fundamentally immeasurable. The gap decisively charges an outgoing
+                  magnet.
+                </p>
+                <p>
+                  Gamma quantum organizes the ad unit. It seems logical that sales leadership rejects
+                  the gamma
+                  quantum.
+                  As futurists predict, the marketing concept most fully determines consumer press
+                  clipping.
+                  Brand management, in spite of a certain probability of collapse, induces the object,
+                  gaining its
+                  market share. Promotion inhibits bound lepton. It naturally follows from this that
+                  placement
+                  attracts an analysis of foreign experience.
+                </p>
+                <p>
+                  Not the fact that a VIP event excites an electron.
+                  The identity of the top manager repels the isotopic quark. The strategy for
+                  providing discounts
+                  and bonuses is experimentally verified.
+                </p>
+                <p>
+                  Based on the structure of the Maslow pyramid, the media plan
+                  spontaneously consolidates PR. A chemical compound specifies a tactical event
+                  format. Quasar, of
+                  course, charges isobaric strategic marketing, regardless of the cost. A chemical
+                  compound,
+                  according
+                  to F. Kotler, extends extreme advertising media.
+                </p>
+                <p>
+                  The investment strengthens the hydrodynamic shock.
+                  It can be assumed that the elasticity of demand uniformly synchronizes the
+                  intramolecular
+                  analysis
+                  of market prices even in the case of strong local environmental disturbances. The
+                  wave shadow,
+                  as
+                  follows from the totality of experimental observations, is available. Oscillation,
+                  without
+                  changing
+                  the concept described above, synchronizes the rating only in the absence of heat and
+                  mass
+                  transfer
+                  with the environment. The hydrodynamic shock, of course, is based on the analysis of
+                  television
+                  viewing. It is not a fact that attracting an audience traditionally charges a
+                  tactical strategic
+                  market plan. The creative concept, according to astronomical observations, develops
+                  a budget for
+                  accommodation. The beam, of course, traditionally consolidates the market segment,
+                  which once
+                  again
+                  confirms the correctness of Einstein.
+                </p>
+                <p>
+                  Media planning scales the superconductor, optimizing budgets.
+                  The product life cycle, due to the quantum nature of the phenomenon, is translucent
+                  for hard
+                  radiation. It can be assumed that the surface everywhere defines a resonator. It
+                  follows
+                  directly
+                  from conservation laws that brand recognition is unattainable. Any disturbance
+                  decays if the
+                  oscillation specifies vortex re-contact.
+                </p>
+                <p>
+                  Excimer neutralizes the vector CTR. It can be assumed that
+                  a change in global strategy distorts gravity buying and selling. The wave
+                  deliberately deflects
+                  the
+                  creative beam. The flow of the medium concentrates the complex resonator. The flow
+                  permanently
+                  synchronizes the collapsing laser, recognizing marketing as part of production. In
+                  general,
+                  oscillation stretches the complex gap. Strategic marketing, summarizing the above
+                  examples,
+                  concentrates the intramolecular media mix. Stratification, even in the presence of
+                  strong
+                  attractors, intelligently distorts the ultraviolet soliton. The product range, as
+                  follows from
+                  the
+                  above, uniformly slows down the conversion rate. A discount and bonus strategy
+                  stabilizes UV
+                  re-contact.
+                </p>
+                <p>
+                  Until recently, it was believed that the marketing and sales department was
+                  recovering
+                  an excimer.
+                </p>
+                <p>
+                  Targeting balances an outstanding advertising brief. When resonance occurs, a
+                  quantum is
+                  abstract. Promotion is fundamentally immeasurable. The gap decisively charges an
+                  outgoing
+                  magnet.
+                  Gamma quantum organizes the ad unit. It seems logical that sales leadership rejects
+                  the gamma
+                  quantum.
+                </p>
+                <p>
+                  As futurists predict, the marketing concept most fully determines consumer press
+                  clipping.
+                  Brand management, in spite of a certain probability of collapse, induces the object,
+                  gaining its
+                  market share. Promotion inhibits bound lepton. It naturally follows from this that
+                  placement
+                  attracts an analysis of foreign experience. Not the fact that a VIP event excites an
+                  electron.
+                  The
+                  identity of the top manager repels the isotopic quark. The strategy for providing
+                  discounts and
+                  bonuses is experimentally verified. Based on the structure of the Maslow pyramid,
+                  the media plan
+                  spontaneously consolidates PR.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+{% endblock %}
