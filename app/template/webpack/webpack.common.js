@@ -8,6 +8,10 @@ const routerConfig = [
         name: 'index',
         template: 'index'
     },
+    {
+        name: 'test',
+        template: 'ui'
+    }
 ];
 
 
