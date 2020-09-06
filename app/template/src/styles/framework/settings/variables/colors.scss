@@ -16,22 +16,22 @@ $gray13: #000;
 
 $grays: ();
 $grays: map-merge(
-(
-    "1": $gray1,
-    "2": $gray2,
-    "3": $gray3,
-    "4": $gray4,
-    "5": $gray5,
-    "6": $gray6,
-    "7": $gray7,
-    "8": $gray8,
-    "9": $gray9,
-    "10": $gray10,
-    "11": $gray11,
-    "12": $gray12,
-    "13": $gray13
-),
-$grays
+    (
+      "1": $gray1,
+      "2": $gray2,
+      "3": $gray3,
+      "4": $gray4,
+      "5": $gray5,
+      "6": $gray6,
+      "7": $gray7,
+      "8": $gray8,
+      "9": $gray9,
+      "10": $gray10,
+      "11": $gray11,
+      "12": $gray12,
+      "13": $gray13
+    ),
+    $grays
 );
 
 //Red
@@ -52,22 +52,22 @@ $red13: #240000;
 
 $reds: ();
 $reds: map-merge(
-(
-    "1": $red1,
-    "2": $red2,
-    "3": $red3,
-    "4": $red4,
-    "5": $red5,
-    "6": $red6,
-    "7": $red7,
-    "8": $red8,
-    "9": $red9,
-    "10": $red10,
-    "11": $red11,
-    "12": $red12,
-    "13": $red13
-),
-$reds
+    (
+      "1": $red1,
+      "2": $red2,
+      "3": $red3,
+      "4": $red4,
+      "5": $red5,
+      "6": $red6,
+      "7": $red7,
+      "8": $red8,
+      "9": $red9,
+      "10": $red10,
+      "11": $red11,
+      "12": $red12,
+      "13": $red13
+    ),
+    $reds
 );
 
 //Blue
@@ -86,27 +86,42 @@ $blue11: #03216E;
 $blue12: #001349;
 $blue13: #000824;
 
+$blue14: #063D61;
+$blue15: #29587A;
+$blue16: #1974B0;
+$blue17: #2E87C1;
+$blue18: #3891FF;
+$blue19: #3795D5;
+$blue20: #4CC3F8;
+
 $blues: ();
 $blues: map-merge(
-  (
-    "1": $blue1,
-    "2": $blue2,
-    "3": $blue3,
-    "4": $blue4,
-    "5": $blue5,
-    "6": $blue6,
-    "7": $blue7,
-    "8": $blue8,
-    "9": $blue9,
-    "10": $blue10,
-    "11": $blue11,
-    "12": $blue12,
-    "13": $blue13
-  ),
-  $blues
+    (
+      "1": $blue1,
+      "2": $blue2,
+      "3": $blue3,
+      "4": $blue4,
+      "5": $blue5,
+      "6": $blue6,
+      "7": $blue7,
+      "8": $blue8,
+      "9": $blue9,
+      "10": $blue10,
+      "11": $blue11,
+      "12": $blue12,
+      "13": $blue13,
+      "14": $blue14,
+      "15": $blue15,
+      "16": $blue16,
+      "17": $blue17,
+      "18": $blue18,
+      "19": $blue19,
+      "20": $blue20,
+    ),
+    $blues
 );
 
-//Blue
+//Green
 //
 $green1: #EAF5E8;
 $green2: #D3F4CD;
@@ -142,6 +157,22 @@ $greens: map-merge(
     $greens
 );
 
+//Light Green
+//
+$l_green1: #51CBAF;
+$l_green2: #0EC295;
+$l_green3: #0CAC7D;
+
+$l_greens: ();
+$l_greens: map-merge(
+    (
+      '1': $l_green1,
+      '2': $l_green2,
+      '3': $l_green3
+    ),
+    $l_greens
+);
+
 $blue: $blue9;
 $indigo: #6610f2;
 $purple: #6f42c1;
@@ -157,19 +188,19 @@ $colors: ();
 // stylelint-disable-next-line scss/dollar-variable-default
 $colors: map-merge(
     (
-        "blue": $blue,
-        "indigo": $indigo,
-        "purple": $purple,
-        "pink": $pink,
-        "red": $red,
-        "orange": $orange,
-        "yellow": $yellow,
-        "green": $green,
-        "teal": $teal,
-        "cyan": $cyan,
-        "white": $white,
-        "gray": $gray6,
-        "gray-dark": $gray8
+      "blue": $blue,
+      "indigo": $indigo,
+      "purple": $purple,
+      "pink": $pink,
+      "red": $red,
+      "orange": $orange,
+      "yellow": $yellow,
+      "green": $green,
+      "teal": $teal,
+      "cyan": $cyan,
+      "white": $white,
+      "gray": $gray6,
+      "gray-dark": $gray8
     ),
     $colors
 );
@@ -189,23 +220,18 @@ $bronze: #B55916;
 
 $theme-colors: ();
 $theme-colors: map-merge(
-  (
+    (
       "primary": $primary,
       "secondary": $secondary,
-      //"light": $light,
-      //"success": $success,
-      //"info": $info,
-      //"warning": $warning,
-      //"danger": $danger,
       "dark": $dark,
       "white": $white,
       "black": $black,
       "yellow": $yellow
-  ),
-  $theme-colors
+    ),
+    $theme-colors
 );
 
 $body-color: $black;
 
-$btnDisabledBackground:           #F4F7F9;
-$btnDisabledColor:                #CDD7E0;
+$btnDisabledBackground: #F4F7F9;
+$btnDisabledColor: #CDD7E0;

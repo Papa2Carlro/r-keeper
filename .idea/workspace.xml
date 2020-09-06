@@ -2,27 +2,107 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0813ca8-07f2-4f63-b065-f27e62a3797f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/template/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/template/src/styles/modules/global/app.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/template/src/styles/modules/global/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/src/styles/components/panel/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/src/styles/components/panel/panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/src/styles/modules/global/header.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/src/styles/ui/btn.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/template/src/templates/includes/_panel.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/scripts/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/scripts/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/styles/framework/settings/variables/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/framework/settings/variables/grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/styles/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/styles/modules/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/modules/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/components/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/components/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/framework/settings/mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/framework/settings/mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/framework/settings/variables/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/framework/settings/variables/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/framework/settings/variables/spacing.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/framework/settings/variables/spacing.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/framework/settings/variables/typography.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/framework/settings/variables/typography.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/modules/global/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/modules/global/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/modules/global/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/modules/global/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/template/src/styles/ui/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/ui/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/components/_index.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/templates/components/_index.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/feature.njk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/features.njk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/utilities/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/utilities/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/styles/utilities/helpers.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/styles/utilities/helpers.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/templates/includes/_header.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/templates/includes/_header.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/src/templates/includes/_icons-sprite.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/templates/includes/_icons-sprite.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/template/src/templates/index.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/templates/index.njk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/template/src/templates/layouts/_default.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/templates/layouts/_default.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/post.njk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/posts.njk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/prediction.njk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/predictions.njk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/test.njk" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/src/templates/ui.njk" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/src/templates/ui.njk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/template/webpack/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/template/webpack/webpack.common.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Black/Stratos-Black.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Black/Stratos-Black.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Black/Stratos-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Black/Stratos-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-BlackItalic/Stratos-BlackItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-BlackItalic/Stratos-BlackItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-BlackItalic/Stratos-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-BlackItalic/Stratos-BlackItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Bold/Stratos-Bold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Bold/Stratos-Bold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Bold/Stratos-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Bold/Stratos-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-BoldItalic/Stratos-BoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-BoldItalic/Stratos-BoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-BoldItalic/Stratos-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-BoldItalic/Stratos-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraBold/Stratos-ExtraBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraBold/Stratos-ExtraBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraBold/Stratos-ExtraBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraBold/Stratos-ExtraBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraBoldItalic/Stratos-ExtraBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraBoldItalic/Stratos-ExtraBoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraBoldItalic/Stratos-ExtraBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraBoldItalic/Stratos-ExtraBoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraLight/Stratos-ExtraLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraLight/Stratos-ExtraLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraLight/Stratos-ExtraLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraLight/Stratos-ExtraLight.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraLightItalic/Stratos-ExtraLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraLightItalic/Stratos-ExtraLightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraLightItalic/Stratos-ExtraLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ExtraLightItalic/Stratos-ExtraLightItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Italic/Stratos-Italic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Italic/Stratos-Italic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Italic/Stratos-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Italic/Stratos-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Light/Stratos-Light.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Light/Stratos-Light.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Light/Stratos-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Light/Stratos-Light.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-LightItalic/Stratos-LightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-LightItalic/Stratos-LightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-LightItalic/Stratos-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-LightItalic/Stratos-LightItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Medium/Stratos-Medium.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Medium/Stratos-Medium.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Medium/Stratos-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Medium/Stratos-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-MediumItalic/Stratos-MediumItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-MediumItalic/Stratos-MediumItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-MediumItalic/Stratos-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-MediumItalic/Stratos-MediumItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Regular/Stratos-Regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Regular/Stratos-Regular.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Regular/Stratos-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Regular/Stratos-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiBold/Stratos-SemiBold.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiBold/Stratos-SemiBold.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiBold/Stratos-SemiBold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiBold/Stratos-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiBoldItalic/Stratos-SemiBoldItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiBoldItalic/Stratos-SemiBoldItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiBoldItalic/Stratos-SemiBoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiBoldItalic/Stratos-SemiBoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiLight/Stratos-SemiLight.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiLight/Stratos-SemiLight.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiLight/Stratos-SemiLight.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiLight/Stratos-SemiLight.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiLightItalic/Stratos-SemiLightItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiLightItalic/Stratos-SemiLightItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiLightItalic/Stratos-SemiLightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-SemiLightItalic/Stratos-SemiLightItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Thin/Stratos-Thin.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Thin/Stratos-Thin.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Thin/Stratos-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-Thin/Stratos-Thin.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ThinItalic/Stratos-ThinItalic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ThinItalic/Stratos-ThinItalic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ThinItalic/Stratos-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/template/static/fonts/Stratos/Stratos-ThinItalic/Stratos-ThinItalic.woff2" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +112,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,14 +133,34 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Work\r-keeper" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start (2)">
+  <component name="RunManager" selected="npm.gulp">
+    <configuration name="front" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/app/template/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="front" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="gulp" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/app/template/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="gulp" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="start (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/app/server/package.json" />
       <command value="run" />
@@ -93,6 +193,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.gulp" />
+        <item itemvalue="npm.front" />
         <item itemvalue="npm.start (2)" />
         <item itemvalue="npm.start (1)" />
         <item itemvalue="npm.start" />
@@ -110,7 +212,9 @@
       <workItem from="1599219856536" duration="844000" />
       <workItem from="1599220750830" duration="1475000" />
       <workItem from="1599229103420" duration="1407000" />
-      <workItem from="1599230599158" duration="2433000" />
+      <workItem from="1599230599158" duration="3832000" />
+      <workItem from="1599301770164" duration="423000" />
+      <workItem from="1599304341455" duration="14430000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1599220795303</created>
@@ -119,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599220795303</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update: add devup framework">
+      <created>1599233128170</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599233128170</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,48 +238,57 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="Update: add devup framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: add devup framework" />
   </component>
   <component name="WindowStateProjectService">
     <state x="476" y="269" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599231021935">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
     <state x="476" y="269" key="#com.intellij.fileTypes.FileTypeChooser/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599231021935" />
-    <state x="340" y="40" key="CommitChangelistDialog2" timestamp="1599220792524">
+    <state x="340" y="40" key="CommitChangelistDialog2" timestamp="1599233125833">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state x="340" y="40" key="CommitChangelistDialog2/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599220792524" />
-    <state width="1417" height="179" key="GridCell.Tab.0.bottom" timestamp="1599232538440">
+    <state x="340" y="40" key="CommitChangelistDialog2/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599233125833" />
+    <state x="499" y="224" key="FileChooserDialogImpl" timestamp="1599305748240">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state width="1417" height="179" key="GridCell.Tab.0.bottom/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599232538440" />
-    <state width="1417" height="179" key="GridCell.Tab.0.center" timestamp="1599232538440">
+    <state x="499" y="224" key="FileChooserDialogImpl/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599305748240" />
+    <state width="1417" height="189" key="GridCell.Tab.0.bottom" timestamp="1599310901622">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state width="1417" height="179" key="GridCell.Tab.0.center/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599232538440" />
-    <state width="1417" height="179" key="GridCell.Tab.0.left" timestamp="1599232538439">
+    <state width="1417" height="189" key="GridCell.Tab.0.bottom/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599310901622" />
+    <state width="1417" height="189" key="GridCell.Tab.0.center" timestamp="1599310901622">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state width="1417" height="179" key="GridCell.Tab.0.left/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599232538439" />
-    <state width="1417" height="179" key="GridCell.Tab.0.right" timestamp="1599232538440">
+    <state width="1417" height="189" key="GridCell.Tab.0.center/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599310901622" />
+    <state width="1417" height="189" key="GridCell.Tab.0.left" timestamp="1599310901622">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state width="1417" height="179" key="GridCell.Tab.0.right/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599232538440" />
-    <state x="225" y="77" width="1000" height="811" key="SettingsEditor" timestamp="1599231007276">
+    <state width="1417" height="189" key="GridCell.Tab.0.left/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599310901622" />
+    <state width="1417" height="189" key="GridCell.Tab.0.right" timestamp="1599310901622">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state x="225" y="77" width="1000" height="811" key="SettingsEditor/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599231007276" />
-    <state x="311" y="200" key="Vcs.Push.Dialog.v2" timestamp="1599229883455">
+    <state width="1417" height="189" key="GridCell.Tab.0.right/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599310901622" />
+    <state x="225" y="77" width="1000" height="811" key="SettingsEditor" timestamp="1599308621960">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state x="311" y="200" key="Vcs.Push.Dialog.v2/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599229883455" />
-    <state x="427" y="193" width="585" height="554" key="find.popup" timestamp="1599231881510">
+    <state x="225" y="77" width="1000" height="811" key="SettingsEditor/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599308621960" />
+    <state x="311" y="200" key="Vcs.Push.Dialog.v2" timestamp="1599307660111">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state x="427" y="193" width="585" height="554" key="find.popup/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599231881510" />
-    <state x="383" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1599232653096">
+    <state x="311" y="200" key="Vcs.Push.Dialog.v2/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599307660111" />
+    <state x="343" y="229" width="585" height="554" key="find.popup" timestamp="1599324866547">
       <screen x="0" y="40" width="1440" height="860" />
     </state>
-    <state x="383" y="220" width="672" height="678" key="search.everywhere.popup/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599232653096" />
+    <state x="343" y="229" width="585" height="554" key="find.popup/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599324866547" />
+    <state x="376" y="215" key="run.anything.popup" timestamp="1599307625145">
+      <screen x="0" y="40" width="1440" height="860" />
+    </state>
+    <state x="376" y="215" key="run.anything.popup/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599307625145" />
+    <state x="383" y="220" width="672" height="678" key="search.everywhere.popup" timestamp="1599311726086">
+      <screen x="0" y="40" width="1440" height="860" />
+    </state>
+    <state x="383" y="220" width="672" height="678" key="search.everywhere.popup/-1920.-67.1920.1040/0.40.1440.860@0.40.1440.860" timestamp="1599311726086" />
   </component>
 </project>
